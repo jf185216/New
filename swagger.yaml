@@ -2,12 +2,12 @@
 swagger: "2.0"
 info:
   version: 1.0-SNAPSHOT
-  title: “lesson 1”
+  title: ?lesson 1?
 basePath: /v1
 paths:
   /accounts/{id}:
     get:
-      description: Simple get mock.
+      description: Simple get mock
       operationId: accounts/getBalance
       parameters:
       - in: path
